@@ -1,6 +1,6 @@
 # Flutter Bilibili 收藏夹视频下载器
 
-<img src="./assets/app.png" width="200" height="200" alt="项目图标">
+<img src="./assets/app.png" width="200" height="200" alt="项目图标" align="center">
 
 一款基于 Flutter 开发的跨平台 B 站收藏夹视频下载工具，支持 Android 及 Windows 桌面端，让你轻松管理并下载 B 站收藏的视频内容，随时随地离线观看。
 
