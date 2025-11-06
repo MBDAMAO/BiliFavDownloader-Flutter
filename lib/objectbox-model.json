@@ -1,0 +1,257 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "1:3103351114352951782",
+      "lastPropertyId": "6:7610847785239080610",
+      "name": "Saved",
+      "properties": [
+        {
+          "id": "1:2246051679033449256",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7964919142810501488",
+          "name": "aid",
+          "type": 6,
+          "flags": 8,
+          "indexId": "1:2709284430950543765"
+        },
+        {
+          "id": "3:4558775604821991791",
+          "name": "cid",
+          "type": 6
+        },
+        {
+          "id": "4:8623392557317603391",
+          "name": "createTime",
+          "type": 9,
+          "flags": 2048,
+          "indexId": "2:2446503532625826025"
+        },
+        {
+          "id": "6:7610847785239080610",
+          "name": "dbStatue",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "2:2432645037487349351",
+      "lastPropertyId": "7:498351526249889175",
+      "name": "StaredFolder",
+      "properties": [
+        {
+          "id": "1:4958878161764088812",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:6651070683971385737",
+          "name": "folderId",
+          "type": 6,
+          "flags": 8,
+          "indexId": "3:6283193620122470118"
+        },
+        {
+          "id": "3:4055382555388980797",
+          "name": "name",
+          "type": 9
+        },
+        {
+          "id": "4:5507754809829434652",
+          "name": "createTime",
+          "type": 9,
+          "flags": 2048,
+          "indexId": "4:7179329294396508274"
+        },
+        {
+          "id": "5:7835103905103590733",
+          "name": "cover",
+          "type": 9
+        },
+        {
+          "id": "6:6051010483783637870",
+          "name": "ownerName",
+          "type": 9
+        },
+        {
+          "id": "7:498351526249889175",
+          "name": "ownerAvatar",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "3:4381922503364267728",
+      "lastPropertyId": "18:9081152130864322466",
+      "name": "Task",
+      "properties": [
+        {
+          "id": "1:6279867679007655355",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1099857336203131368",
+          "name": "progress",
+          "type": 6
+        },
+        {
+          "id": "3:4620311953254575905",
+          "name": "filename",
+          "type": 9
+        },
+        {
+          "id": "4:7835461037638738510",
+          "name": "cover",
+          "type": 9
+        },
+        {
+          "id": "5:317445055074986671",
+          "name": "savePath",
+          "type": 9
+        },
+        {
+          "id": "6:8672880417358139363",
+          "name": "videoQuality",
+          "type": 9
+        },
+        {
+          "id": "7:3323513102102228075",
+          "name": "audioQuality",
+          "type": 9
+        },
+        {
+          "id": "8:8178370986740537910",
+          "name": "metadata",
+          "type": 9
+        },
+        {
+          "id": "9:4233181391096332864",
+          "name": "aid",
+          "type": 6
+        },
+        {
+          "id": "10:8800444996566461077",
+          "name": "cid",
+          "type": 6
+        },
+        {
+          "id": "11:264705675179436534",
+          "name": "message",
+          "type": 9
+        },
+        {
+          "id": "12:2691556863299909708",
+          "name": "speed",
+          "type": 9
+        },
+        {
+          "id": "13:7110316355437923418",
+          "name": "current",
+          "type": 9
+        },
+        {
+          "id": "14:336789513909438887",
+          "name": "total",
+          "type": 9
+        },
+        {
+          "id": "15:1245548810030588046",
+          "name": "createTime",
+          "type": 9,
+          "flags": 2048,
+          "indexId": "5:3270381628418435257"
+        },
+        {
+          "id": "16:5277895405904395981",
+          "name": "dbTaskStatus",
+          "type": 6
+        },
+        {
+          "id": "17:1730936947894910555",
+          "name": "dbTaskType",
+          "type": 6
+        },
+        {
+          "id": "18:9081152130864322466",
+          "name": "dbTaskPhase",
+          "type": 6
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:7795162858758691811",
+      "lastPropertyId": "3:4915651137318282602",
+      "name": "SearchHistory",
+      "properties": [
+        {
+          "id": "1:6921250363614499051",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:1108040336557673325",
+          "name": "keyword",
+          "type": 9,
+          "flags": 34848,
+          "indexId": "6:2280895299935192189"
+        },
+        {
+          "id": "3:4915651137318282602",
+          "name": "time",
+          "type": 10
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "5:3496264002867446697",
+      "lastPropertyId": "3:9157750859019271517",
+      "name": "DownloadCursor",
+      "properties": [
+        {
+          "id": "1:5643418572326896985",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:8633164402332750668",
+          "name": "folderId",
+          "type": 6
+        },
+        {
+          "id": "3:9157750859019271517",
+          "name": "cursor",
+          "type": 6
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "5:3496264002867446697",
+  "lastIndexId": "6:2280895299935192189",
+  "lastRelationId": "0:0",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    7639832770081073377
+  ],
+  "retiredRelationUids": [],
+  "version": 1
+}
